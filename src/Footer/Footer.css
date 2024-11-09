@@ -1,0 +1,23 @@
+div > div > a{
+
+    font-size: large;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+
+.custom {
+    /* flex-wrap: wrap;
+    flex-grow: 1; */
+}
+
+
+.footer {
+    position : relative;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    
+}

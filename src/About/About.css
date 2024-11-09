@@ -1,0 +1,58 @@
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
+
+.card-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+.card:hover {
+    transform: translateY(-10px); /* Card lift effect */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+  }
+
+.custom-text {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 600;
+}
+.card {
+   
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+.card h4 {
+    font-size: 1.1rem;
+    color: #5e5d5d;
+    margin-bottom: 15px;
+  }
+
+  .card h4 :hover{
+    color:rgb(0, 0, 0)
+  }
+  .card p {
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  .img1{
+    float: right;
+  }
+
+  .section {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    padding: 30px 20px;
+  }
