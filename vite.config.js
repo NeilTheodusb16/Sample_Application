@@ -7,5 +7,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   
   plugins: [react()],
+    presets: [
+    '@babel/preset-env',  // for modern JavaScript
+    '@babel/preset-react', // for JSX
+  ],
  
 })
